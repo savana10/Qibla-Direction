@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		965B9DDF19A6DB3A00D4434D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 965B9DDE19A6DB3A00D4434D /* Foundation.framework */; };
+		965B9DE119A6DB3A00D4434D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 965B9DE019A6DB3A00D4434D /* CoreGraphics.framework */; };
+		965B9DE319A6DB3A00D4434D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 965B9DE219A6DB3A00D4434D /* UIKit.framework */; };
+		965B9DE919A6DB3B00D4434D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 965B9DE719A6DB3B00D4434D /* InfoPlist.strings */; };
+		965B9DEB19A6DB3B00D4434D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 965B9DEA19A6DB3B00D4434D /* main.m */; };
+		965B9DEF19A6DB3B00D4434D /* QDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 965B9DEE19A6DB3B00D4434D /* QDAppDelegate.m */; };
+		965B9DF219A6DB3C00D4434D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 965B9DF019A6DB3C00D4434D /* Main.storyboard */; };
+		965B9DF519A6DB3C00D4434D /* QDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 965B9DF419A6DB3C00D4434D /* QDViewController.m */; };
+		965B9DF719A6DB3D00D4434D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 965B9DF619A6DB3D00D4434D /* Images.xcassets */; };
+		965B9DFE19A6DB4000D4434D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 965B9DFD19A6DB4000D4434D /* XCTest.framework */; };
+		965B9DFF19A6DB4000D4434D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 965B9DDE19A6DB3A00D4434D /* Foundation.framework */; };
+		965B9E0019A6DB4000D4434D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 965B9DE219A6DB3A00D4434D /* UIKit.framework */; };
+		965B9E0819A6DB4100D4434D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 965B9E0619A6DB4100D4434D /* InfoPlist.strings */; };
+		965B9E0A19A6DB4100D4434D /* Qibla_DirectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 965B9E0919A6DB4100D4434D /* Qibla_DirectionTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		965B9E0119A6DB4000D4434D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 965B9DD319A6DB3900D4434D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 965B9DDA19A6DB3A00D4434D;
+			remoteInfo = "Qibla Direction";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		965B9DDB19A6DB3A00D4434D /* Qibla Direction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Qibla Direction.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		965B9DDE19A6DB3A00D4434D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		965B9DE019A6DB3A00D4434D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		965B9DE219A6DB3A00D4434D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		965B9DE619A6DB3B00D4434D /* Qibla Direction-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Qibla Direction-Info.plist"; sourceTree = "<group>"; };
+		965B9DE819A6DB3B00D4434D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		965B9DEA19A6DB3B00D4434D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		965B9DEC19A6DB3B00D4434D /* Qibla Direction-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Qibla Direction-Prefix.pch"; sourceTree = "<group>"; };
+		965B9DED19A6DB3B00D4434D /* QDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDAppDelegate.h; sourceTree = "<group>"; };
+		965B9DEE19A6DB3B00D4434D /* QDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDAppDelegate.m; sourceTree = "<group>"; };
+		965B9DF119A6DB3C00D4434D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		965B9DF319A6DB3C00D4434D /* QDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDViewController.h; sourceTree = "<group>"; };
+		965B9DF419A6DB3C00D4434D /* QDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDViewController.m; sourceTree = "<group>"; };
+		965B9DF619A6DB3D00D4434D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		965B9DFC19A6DB4000D4434D /* Qibla DirectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Qibla DirectionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		965B9DFD19A6DB4000D4434D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		965B9E0519A6DB4100D4434D /* Qibla DirectionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Qibla DirectionTests-Info.plist"; sourceTree = "<group>"; };
+		965B9E0719A6DB4100D4434D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		965B9E0919A6DB4100D4434D /* Qibla_DirectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Qibla_DirectionTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		965B9DD819A6DB3A00D4434D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965B9DE119A6DB3A00D4434D /* CoreGraphics.framework in Frameworks */,
+				965B9DE319A6DB3A00D4434D /* UIKit.framework in Frameworks */,
+				965B9DDF19A6DB3A00D4434D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		965B9DF919A6DB4000D4434D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965B9DFE19A6DB4000D4434D /* XCTest.framework in Frameworks */,
+				965B9E0019A6DB4000D4434D /* UIKit.framework in Frameworks */,
+				965B9DFF19A6DB4000D4434D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		965B9DD219A6DB3900D4434D = {
+			isa = PBXGroup;
+			children = (
+				965B9DE419A6DB3A00D4434D /* Qibla Direction */,
+				965B9E0319A6DB4000D4434D /* Qibla DirectionTests */,
+				965B9DDD19A6DB3A00D4434D /* Frameworks */,
+				965B9DDC19A6DB3A00D4434D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		965B9DDC19A6DB3A00D4434D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				965B9DDB19A6DB3A00D4434D /* Qibla Direction.app */,
+				965B9DFC19A6DB4000D4434D /* Qibla DirectionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		965B9DDD19A6DB3A00D4434D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				965B9DDE19A6DB3A00D4434D /* Foundation.framework */,
+				965B9DE019A6DB3A00D4434D /* CoreGraphics.framework */,
+				965B9DE219A6DB3A00D4434D /* UIKit.framework */,
+				965B9DFD19A6DB4000D4434D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		965B9DE419A6DB3A00D4434D /* Qibla Direction */ = {
+			isa = PBXGroup;
+			children = (
+				965B9DED19A6DB3B00D4434D /* QDAppDelegate.h */,
+				965B9DEE19A6DB3B00D4434D /* QDAppDelegate.m */,
+				965B9DF019A6DB3C00D4434D /* Main.storyboard */,
+				965B9DF319A6DB3C00D4434D /* QDViewController.h */,
+				965B9DF419A6DB3C00D4434D /* QDViewController.m */,
+				965B9DF619A6DB3D00D4434D /* Images.xcassets */,
+				965B9DE519A6DB3B00D4434D /* Supporting Files */,
+			);
+			path = "Qibla Direction";
+			sourceTree = "<group>";
+		};
+		965B9DE519A6DB3B00D4434D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				965B9DE619A6DB3B00D4434D /* Qibla Direction-Info.plist */,
+				965B9DE719A6DB3B00D4434D /* InfoPlist.strings */,
+				965B9DEA19A6DB3B00D4434D /* main.m */,
+				965B9DEC19A6DB3B00D4434D /* Qibla Direction-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		965B9E0319A6DB4000D4434D /* Qibla DirectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				965B9E0919A6DB4100D4434D /* Qibla_DirectionTests.m */,
+				965B9E0419A6DB4100D4434D /* Supporting Files */,
+			);
+			path = "Qibla DirectionTests";
+			sourceTree = "<group>";
+		};
+		965B9E0419A6DB4100D4434D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				965B9E0519A6DB4100D4434D /* Qibla DirectionTests-Info.plist */,
+				965B9E0619A6DB4100D4434D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		965B9DDA19A6DB3A00D4434D /* Qibla Direction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 965B9E0D19A6DB4100D4434D /* Build configuration list for PBXNativeTarget "Qibla Direction" */;
+			buildPhases = (
+				965B9DD719A6DB3A00D4434D /* Sources */,
+				965B9DD819A6DB3A00D4434D /* Frameworks */,
+				965B9DD919A6DB3A00D4434D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Qibla Direction";
+			productName = "Qibla Direction";
+			productReference = 965B9DDB19A6DB3A00D4434D /* Qibla Direction.app */;
+			productType = "com.apple.product-type.application";
+		};
+		965B9DFB19A6DB4000D4434D /* Qibla DirectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 965B9E1019A6DB4100D4434D /* Build configuration list for PBXNativeTarget "Qibla DirectionTests" */;
+			buildPhases = (
+				965B9DF819A6DB4000D4434D /* Sources */,
+				965B9DF919A6DB4000D4434D /* Frameworks */,
+				965B9DFA19A6DB4000D4434D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				965B9E0219A6DB4000D4434D /* PBXTargetDependency */,
+			);
+			name = "Qibla DirectionTests";
+			productName = "Qibla DirectionTests";
+			productReference = 965B9DFC19A6DB4000D4434D /* Qibla DirectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		965B9DD319A6DB3900D4434D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = QD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Savana;
+				TargetAttributes = {
+					965B9DFB19A6DB4000D4434D = {
+						TestTargetID = 965B9DDA19A6DB3A00D4434D;
+					};
+				};
+			};
+			buildConfigurationList = 965B9DD619A6DB3900D4434D /* Build configuration list for PBXProject "Qibla Direction" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 965B9DD219A6DB3900D4434D;
+			productRefGroup = 965B9DDC19A6DB3A00D4434D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				965B9DDA19A6DB3A00D4434D /* Qibla Direction */,
+				965B9DFB19A6DB4000D4434D /* Qibla DirectionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		965B9DD919A6DB3A00D4434D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965B9DF719A6DB3D00D4434D /* Images.xcassets in Resources */,
+				965B9DE919A6DB3B00D4434D /* InfoPlist.strings in Resources */,
+				965B9DF219A6DB3C00D4434D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		965B9DFA19A6DB4000D4434D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965B9E0819A6DB4100D4434D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		965B9DD719A6DB3A00D4434D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965B9DF519A6DB3C00D4434D /* QDViewController.m in Sources */,
+				965B9DEB19A6DB3B00D4434D /* main.m in Sources */,
+				965B9DEF19A6DB3B00D4434D /* QDAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		965B9DF819A6DB4000D4434D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				965B9E0A19A6DB4100D4434D /* Qibla_DirectionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		965B9E0219A6DB4000D4434D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 965B9DDA19A6DB3A00D4434D /* Qibla Direction */;
+			targetProxy = 965B9E0119A6DB4000D4434D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		965B9DE719A6DB3B00D4434D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				965B9DE819A6DB3B00D4434D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		965B9DF019A6DB3C00D4434D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				965B9DF119A6DB3C00D4434D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		965B9E0619A6DB4100D4434D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				965B9E0719A6DB4100D4434D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		965B9E0B19A6DB4100D4434D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		965B9E0C19A6DB4100D4434D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		965B9E0E19A6DB4100D4434D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Qibla Direction/Qibla Direction-Prefix.pch";
+				INFOPLIST_FILE = "Qibla Direction/Qibla Direction-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		965B9E0F19A6DB4100D4434D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Qibla Direction/Qibla Direction-Prefix.pch";
+				INFOPLIST_FILE = "Qibla Direction/Qibla Direction-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		965B9E1119A6DB4100D4434D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Qibla Direction.app/Qibla Direction";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Qibla Direction/Qibla Direction-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Qibla DirectionTests/Qibla DirectionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		965B9E1219A6DB4100D4434D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Qibla Direction.app/Qibla Direction";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Qibla Direction/Qibla Direction-Prefix.pch";
+				INFOPLIST_FILE = "Qibla DirectionTests/Qibla DirectionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		965B9DD619A6DB3900D4434D /* Build configuration list for PBXProject "Qibla Direction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				965B9E0B19A6DB4100D4434D /* Debug */,
+				965B9E0C19A6DB4100D4434D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		965B9E0D19A6DB4100D4434D /* Build configuration list for PBXNativeTarget "Qibla Direction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				965B9E0E19A6DB4100D4434D /* Debug */,
+				965B9E0F19A6DB4100D4434D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		965B9E1019A6DB4100D4434D /* Build configuration list for PBXNativeTarget "Qibla DirectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				965B9E1119A6DB4100D4434D /* Debug */,
+				965B9E1219A6DB4100D4434D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 965B9DD319A6DB3900D4434D /* Project object */;
+}
