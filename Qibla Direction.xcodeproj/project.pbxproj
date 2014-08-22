@@ -21,6 +21,7 @@
 		965B9E0019A6DB4000D4434D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 965B9DE219A6DB3A00D4434D /* UIKit.framework */; };
 		965B9E0819A6DB4100D4434D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 965B9E0619A6DB4100D4434D /* InfoPlist.strings */; };
 		965B9E0A19A6DB4100D4434D /* Qibla_DirectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 965B9E0919A6DB4100D4434D /* Qibla_DirectionTests.m */; };
+		965B9E1419A6DC6900D4434D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 965B9E1319A6DC6900D4434D /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		965B9E0519A6DB4100D4434D /* Qibla DirectionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Qibla DirectionTests-Info.plist"; sourceTree = "<group>"; };
 		965B9E0719A6DB4100D4434D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		965B9E0919A6DB4100D4434D /* Qibla_DirectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Qibla_DirectionTests.m; sourceTree = "<group>"; };
+		965B9E1319A6DC6900D4434D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				965B9E1419A6DC6900D4434D /* CoreLocation.framework in Frameworks */,
 				965B9DE119A6DB3A00D4434D /* CoreGraphics.framework in Frameworks */,
 				965B9DE319A6DB3A00D4434D /* UIKit.framework in Frameworks */,
 				965B9DDF19A6DB3A00D4434D /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		965B9DDD19A6DB3A00D4434D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				965B9E1319A6DC6900D4434D /* CoreLocation.framework */,
 				965B9DDE19A6DB3A00D4434D /* Foundation.framework */,
 				965B9DE019A6DB3A00D4434D /* CoreGraphics.framework */,
 				965B9DE219A6DB3A00D4434D /* UIKit.framework */,
